@@ -1011,7 +1011,7 @@ button:hover {
   }
 
   .footer-text-simple {
-    font-size: 0.92rem;
+    font-size: 0.72rem;
   }
 }
 
@@ -1516,9 +1516,19 @@ button:hover {
   .arco {
     top: 30px;
   }
+  #main {
+    margin: 0px;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 450px) {
+  #main {
+    margin: 0px 0px 0px 50px;
+  }
   /* menu lateral */
   #nav {
     background: #040404f5;
@@ -1558,7 +1568,6 @@ button:hover {
   /* hero - main */
   .hero {
     min-height: 60vh;
-    left: 50px;
   }
   .hero p {
     font-size: 12px;
