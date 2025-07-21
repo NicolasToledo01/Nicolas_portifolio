@@ -449,13 +449,6 @@ a.links {
   transition: filter 0.22s;
 }
 
-body {
-  background: linear-gradient(135deg, #232526 0%, #414345 100%);
-  font-family: "Segoe UI", Arial, sans-serif;
-  color: #f3f3f3;
-  margin: 0;
-  padding: 0;
-}
 .sobre-mim-section {
   max-width: 100%;
   height: auto;
@@ -1514,20 +1507,21 @@ button:hover {
 
 @media (max-width: 375px) {
   .arco {
-    top: 30px;
+    top: 0px;
   }
   #main {
     margin: 0px;
   }
 
   .hero h1 {
-    font-size: 1.5rem;
+    font-size: 20px;
   }
 }
 
 @media (max-width: 450px) {
   #main {
     margin: 0px 0px 0px 50px;
+    max-width: 300px;
   }
   /* menu lateral */
   #nav {
@@ -1568,14 +1562,26 @@ button:hover {
   /* hero - main */
   .hero {
     min-height: 60vh;
+    width: 250px;
   }
   .hero p {
     font-size: 12px;
   }
+  .hero h1 {
+    font-size: 20px;
+  }
   .arco {
-    top: 40px;
-    height: 100%;
-    width: 100%;
+    top: 10px;
+    height: 90%;
+    width: 95%;
+    border-radius: 25%;
+  }
+  .hero-content {
+    max-width: 200px;
+  }
+  .cta-button {
+    width: 100px;
+    font-size: 12px;
   }
   /* section sobre mim */
 
