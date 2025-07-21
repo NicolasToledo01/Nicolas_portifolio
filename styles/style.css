@@ -1562,7 +1562,7 @@ button:hover {
   /* hero - main */
   .hero {
     min-height: 60vh;
-    width: 250px;
+    width: 300px;
   }
   .hero p {
     font-size: 12px;
